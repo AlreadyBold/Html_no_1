@@ -1,0 +1,134 @@
+header{
+    background-color: black;
+    border-color: black;
+}
+div#main_name>a>img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#main_video{
+    margin-left: 250px;
+}
+#main_top_menu {
+    margin-left: 200px;
+}
+#main_top_menu li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 110px;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+}
+main>section#popularcar{
+    background-color: black;
+    border-radius: blanchedalmond;
+}
+
+#textbox{
+    float: right;
+    position:absolute;
+    top: 40px;
+    right: 30px;
+    border-radius: 15px;
+    height: 30px;
+    width: 220px;
+    border: solid 1px rgb(187, 187, 187);
+    text-align: center;
+}
+placeholder{
+    color: gray;
+}
+header{
+    border-bottom: solid 1px rgb(221, 221, 221);
+}
+#name {
+    text-align: center;
+}
+#popular_car_list{
+    margin-top: 200px;
+    text-align: center;
+}
+#popular_car_list:hover{
+    color: rgb(100, 96, 96);
+}
+.popular_car{
+    display: inline-block;
+    margin-right: 143px;
+}
+ section>div#newcar{
+    background-color:black;
+    border-bottom: aquamarine;
+}
+#new_car_list{
+    margin-top: 200px;
+    text-align: center;
+}
+#new_car_list:hover{
+    color:rgb(100, 96, 96)
+}
+.new_car{
+    display: inline-block;
+    margin-right: 143px;
+}
+#High_p_list{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+#High_p_list:hover{
+    color:rgb(100, 96, 96)
+}
+main>section.High_Performance_Vehicle{
+    background-color: black
+}
+
+.High_p{
+    display: inline-block;
+    margin-right: 143px;
+}
+#new_car_list>a>li>img{
+    width: 520px;
+    height: 300px;
+    border-radius: 10px;
+ 
+}
+
+#popular_car_list>li>img{
+    width: 520px;
+    height: 300px;
+    border-radius: 10px;
+}
+#popular_car_list>li>img:hover{
+    transform: scale(140%,140%);
+}
+#new_car_list>a>li>img:hover{
+    transform: scale(140%,140%);
+}
+#High_p_list>li>img:hover{
+    transform: scale(140%,140%);
+}
+#High_p_list>li>img{
+    width: 520px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+footer{
+    position: relative;
+    bottom: 10px;
+}
+.footer_box{
+    display: inline-block;
+    font-size: 12px;
+    width: 600px;
+    vertical-align:middle;
+    margin-top: 10px;
+   
+    margin-left: 90px;
+}
+.footer_box p{
+    color: rgb(77, 77, 77);
+}
+

@@ -1,0 +1,48 @@
+div#main_name>a>img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#main_top_menu {
+    margin-left: 200px;
+}
+#main_top_menu li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 160px;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+}
+main>nav#main_top_menu>ul>center>li>a{
+    list-style-type: none;
+    display: inline;
+    margin-left: 90px;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+}
+
+#textbox{
+    float: right;
+    position:absolute;
+    top: 40px;
+    right: 30px;
+    border-radius: 15px;
+    height: 30px;
+    width: 220px;
+    border: solid 1px rgb(187, 187, 187);
+    text-align: center;
+}
+#popular_car_list>li>img:hover{
+    transform: scale(140%,140%);
+}
+#popular_car_list>li>img{
+    width: 520px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+body>a>img:hover{
+    transform: scale(130%,130%);
+    background-color: brown;
+}
