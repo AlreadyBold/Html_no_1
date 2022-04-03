@@ -3,6 +3,6 @@ body>img{
     height: 130px;
 }
 div#price{
-    width: 380px;
-    height: 100px;
+    width: 100%;
+    height: 600px;
 }
