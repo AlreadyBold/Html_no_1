@@ -14,12 +14,20 @@ div#main_name>a>img{
 #main_top_menu {
     margin-left: 200px;
 }
+#main_top_menu li>img{
+    width: 50px;
+    height: 50px;
+    list-style-type: none;
+    display: inline;
+}
+
 #main_top_menu li{
     list-style-type: none;
     display: inline;
-    margin-left: 110px;
+    margin-left: 170px;
     font-weight: bold;
     color: rgb(83, 83, 83);
+
 }
 main>section#popularcar{
     background-color: black;
@@ -43,6 +51,9 @@ placeholder{
 header{
     border-bottom: solid 1px rgb(221, 221, 221);
 }
+main>section#popularcar , section#newCar , section.High_Performance_Vehicle{
+    border-bottom: solid 1px rgb(221, 221, 221);
+}
 #name {
     text-align: center;
 }
@@ -55,7 +66,8 @@ header{
 }
 .popular_car{
     display: inline-block;
-    margin-right: 143px;
+    margin-right: 180px;
+    margin-left: 180px;
 }
  section>div#newcar{
     background-color:black;
@@ -70,7 +82,8 @@ header{
 }
 .new_car{
     display: inline-block;
-    margin-right: 143px;
+    margin-right: 180px;
+    margin-left: 180px;
 }
 #High_p_list{
     margin-top: 100px;
@@ -86,7 +99,8 @@ main>section.High_Performance_Vehicle{
 
 .High_p{
     display: inline-block;
-    margin-right: 143px;
+    margin-right: 180px;
+    margin-left: 180px;
 }
 #new_car_list>a>li>img{
     width: 520px;
@@ -94,6 +108,7 @@ main>section.High_Performance_Vehicle{
     border-radius: 10px;
  
 }
+
 
 #popular_car_list>li>img{
     width: 520px;
@@ -126,9 +141,40 @@ footer{
     vertical-align:middle;
     margin-top: 10px;
    
-    margin-left: 90px;
+    margin-left: 180px;
 }
 .footer_box p{
     color: rgb(77, 77, 77);
 }
 
+@media(max-width : 400px){
+    #popular_car_list>li>img,#High_p_list>li>img,#new_car_list>a>li>img, #main_video {
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    #popular_car_list, #High_p_list ,#new_car_list{
+        text-align: center;
+    }
+    .popular_car,.High_p,.new_car, #main_video {
+        display: inline-block;
+        margin-right: 5%;
+        margin-left: 5%;
+    } 
+   
+    #textbox{
+        float: right;
+        position:absolute;
+        top: 40px;
+        right: 30px;
+        border-radius: 15px;
+        height: 30px;
+        width: 300px;
+        border: solid 1px rgb(187, 187, 187);
+        text-align: center;
+    }
+
+}
+/* 반응형웹 해결해야할 목록 
+메인비디오 지우기 / 로고 상단 중앙 / 로고 밑에 브랜드 이름  / 서브페이지 비율 조정
+*/

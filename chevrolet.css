@@ -1,11 +1,21 @@
+main img{
+    height: 548px;
+    width: 1280px;
+}
+
+
 div#main_name>a>img{
     display: inline-block;
     width: 200px;
     height: 200px;
     float: left;
+ 
 }
 #main_top_menu {
     margin-left: 200px;
+}
+header #main_top_menu{
+    margin-left: 250px;
 }
 #main_top_menu li{
     list-style-type: none;
@@ -13,6 +23,21 @@ div#main_name>a>img{
     margin-left: 160px;
     font-weight: bold;
     color: rgb(83, 83, 83);
+    font-size:20px;
+}
+main #main_top_menu li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 190px;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+    font-size:20px;
+}
+#main_top_menu li>img{
+    width: 60px;
+    height: 60px;
+    list-style-type: none;
+    display: inline;
 }
 main>nav#main_top_menu>ul>center>li>a{
     list-style-type: none;
@@ -20,6 +45,12 @@ main>nav#main_top_menu>ul>center>li>a{
     margin-left: 90px;
     font-weight: bold;
     color: rgb(83, 83, 83);
+}
+main>center>section#sedan, section#suv, section#ev, section#truck, section#sports{
+    border-bottom: solid 1px rgb(221, 221, 221);
+}
+ul#popular_car_list , ul#suv_car_list, ul#ev_list, ul#truck_list, ul#sports_list{
+    margin-bottom: 150px;
 }
 
 #textbox{
@@ -45,4 +76,24 @@ main>nav#main_top_menu>ul>center>li>a{
 body>a>img:hover{
     transform: scale(130%,130%);
     background-color: brown;
+}
+body>button>img{
+    width: 5px;
+    height: 5px;
+}
+footer{
+    position: relative;
+    bottom: 10px;
+}
+.footer_box{
+    display: inline-block;
+    font-size: 12px;
+    width: 600px;
+    vertical-align:middle;
+    margin-top: 10px;
+   
+    margin-left: 180px;
+}
+.footer_box p{
+    color: rgb(77, 77, 77);
 }

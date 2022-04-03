@@ -1,0 +1,152 @@
+header{
+    background-color: black;
+    border-color: black;
+}
+div#main_name>a>img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    z-index: 1;
+}
+#main_video{
+    display: none;
+}
+
+#main_top_menu li>img{
+    display: none;
+    z-index: 2;
+}
+
+#main_top_menu li>a{
+    
+    display:flex;
+    margin-right: 1000px;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+    z-index: 1;
+
+}
+main>section#popularcar{
+    background-color: black;
+    border-radius: blanchedalmond;
+}
+header>nav#main_top_menu>a{
+    list-style-type: none;
+    display: absolute ;
+    margin-left: 10px;
+    margin-right: 100px;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+
+}
+
+#textbox{
+    float: right;
+    top: 40px;
+    right: 30px;
+    border-radius: 15px;
+    height: 30px;
+    width: 90px;
+    border: solid 1px rgb(187, 187, 187);
+    text-align: center;
+    z-index: 0;
+}
+placeholder{
+    color: gray;
+}
+header, section#newCar, div#Popular, section.High_Performance_Vehicle{
+    border-bottom: solid 1px rgb(221, 221, 221);
+}
+#name {
+    text-align: center;
+}
+#popular_car_list{
+    margin-top: 10px;
+    text-align: center;
+}
+#popular_car_list:hover{
+    color: rgb(100, 96, 96);
+}
+.popular_car{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+ section>div#newcar{
+    background-color:black;
+    border-bottom: aquamarine;
+}
+#new_car_list{
+    margin-top: 10px;
+    text-align: center;
+}
+#new_car_list:hover{
+    color:rgb(100, 96, 96)
+}
+.new_car{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#High_p_list{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+#High_p_list:hover{
+    color:rgb(100, 96, 96)
+}
+main>section.High_Performance_Vehicle{
+    background-color: black
+}
+
+.High_p{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#new_car_list>a>li>img{
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+ 
+}
+
+#popular_car_list>li>img{
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#popular_car_list>li>img:hover{
+    transform: scale(140%,140%);
+}
+#new_car_list>a>li>img:hover{
+    transform: scale(140%,140%);
+}
+#High_p_list>li>img:hover{
+    transform: scale(140%,140%);
+}
+#High_p_list>li>img{
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+footer{
+    position: relative;
+    bottom: 10px;
+}
+.footer_box{
+    display: inline-block;
+    font-size: 12px;
+    width: 600px;
+    vertical-align:middle;
+    margin-top: 10px;
+   
+    margin-left: 80px;
+}
+.footer_box p{
+    color: rgb(77, 77, 77);
+}
+
